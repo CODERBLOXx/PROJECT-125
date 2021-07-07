@@ -1,0 +1,47 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px black;
+    background-color: red;
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: cyan;
+    border: 10px;
+}
+
+.note {
+    font-size: 25;
+    color: lime;
+}
+
+.heading:hover {
+    transition: 1500ms;
+    color: blue;
+}
+
+.note:hover {
+    transition: 1500ms;
+    color: yellow;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 450px;
+    background-color: blue;
+    line-height: 3;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 27px;
+    font-family: 'Creepster',cursive;
+    color: red;
+    width: 40%;
+    box-shadow: 5px 5px 5px black;
+}
+
+canvas {
+    border: 5px solid lime;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
